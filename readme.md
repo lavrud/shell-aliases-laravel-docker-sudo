@@ -31,6 +31,7 @@ alias dkstopall='docker stop $(docker ps -q)'  # Para todos os containers em exe
 alias dkprune='docker system prune -af'  # Remove containers, imagens e volumes não utilizados
 alias dknetls='docker network ls'  # Lista todas as redes do Docker
 alias dknetrm='docker network rm'  # Remove uma rede específica do Docker (exemplo de uso: dknetrm <NETWORK_ID>)
+alias dklog='docker logs' # Exibe relatório de logs do container
 ```
 
 ## Sudo Aliases
