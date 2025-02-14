@@ -15,7 +15,7 @@ alias routecache='php artisan route:cache'  # Cria o cache de rotas no Laravel
 ```bash
 alias dk='docker'  # Atalho para o comando docker
 alias dkps='docker ps'  # Lista os containers em execução
-alias dkc='docker-compose'  # Atalho para docker-compose
+alias dkc='docker compose'  # Atalho para docker-compose
 alias dkimg='docker images'  # Lista as imagens disponíveis no Docker
 alias dkcon='docker container ls'  # Lista todos os containers em execução
 alias dkvol='docker volume ls'  # Lista todos os volumes do Docker
@@ -31,7 +31,7 @@ alias dkstopall='docker stop $(docker ps -q)'  # Para todos os containers em exe
 alias dkprune='docker system prune -af'  # Remove containers, imagens e volumes não utilizados
 alias dknetls='docker network ls'  # Lista todas as redes do Docker
 alias dknetrm='docker network rm'  # Remove uma rede específica do Docker (exemplo de uso: dknetrm <NETWORK_ID>)
-alias dklg='docker logs' # Exibe relatório de logs do container
+alias dklog='docker logs' # Exibe relatório de logs do container
 ```
 
 ## Sudo Aliases
